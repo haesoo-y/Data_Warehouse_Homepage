@@ -38,7 +38,7 @@ li {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 38px;
     line-height: 1.1;
     letter-spacing: -0.01em;
     color: #212353
@@ -59,9 +59,9 @@ h3 {
 }
 
 p {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.6;
-    color: #2B292D
+    color: #4B5D68
     letter-spacing: -0.01em;
 }
 
@@ -89,8 +89,11 @@ p {
 
 /* Landing Section */
 .landing {
-    margin: 10px 0;
+    padding-top: 10px;
+    width: 100%;
+    height: 100vh;
 }
+
 .landing-banner {
     display: flex;
     align-items: center;
@@ -119,6 +122,43 @@ p {
     display: none;
 }
 
+.landing-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 120px 0;
+}
+
+.landing-title {
+    text-align: center;
+    margin-bottom:30px;
+}
+
+.landing-desc {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.landing-button {
+    display: block;
+    width: 119px;
+    height: 42px;
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 200px;
+    background-color: #9C69E2;
+}
+
+.landing-image{
+    display: none;
+}
+
+
+
+
 
 
 
@@ -136,15 +176,15 @@ p {
     /* Reset CSS */
 
     h1 {
-        font-size: 40px;
+        font-size: 80px;
     }
     
     h2 {
-        font-size: 28px;
+        font-size: 40px;
     }
     
     h3 {
-        font-size: 20px;
+        font-size: 24px;
     }
     
     p {
@@ -154,7 +194,13 @@ p {
 
     /* Landing Section */
     .landing {
+        padding-top: 0;
+        height: auto;
         margin: 50px 0;
+    }
+
+    .landing-banner {
+        margin-bottom: 130px;
     }
 
     .landing-banner-text {
@@ -174,10 +220,52 @@ p {
         border-radius: 200px;
     }
 
+    .landing-content {
+        align-items: flex-start;
+        margin: 0;
+    }
+
+    .landing-title {
+        width: 645px;
+        margin-bottom: 50px;
+        text-align: left;
+    }
+    
+    .landing-desc {
+        width: 380px;
+        margin-bottom: 50px;
+        text-align: left;
+    }
+
 
     .banner-image {
         width: 50px;
         margin-right: 120px;
+    }
+
+    .landing-button {
+        display: block;
+        width: 170px;
+        height: 60px;
+        margin-bottom: 100px;
+        padding-top: 16px;
+        font-size: 18px;
+        font-weight: 700;
+        color: #ffffff;
+        text-align: center;
+        border-radius: 200px;
+        background-color: #9C69E2;
+    }
+
+
+
+    .landing-image{
+        display: block;
+        position: absolute;
+        top : 96px;
+        left: 363px;
+        width: 885px;
+        height: auto;
     }
 
 
