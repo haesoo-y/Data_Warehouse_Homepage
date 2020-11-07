@@ -156,14 +156,21 @@ p {
     display: none;
 }
 
+/* Service Section */
+.service{
+    padding: 100px 0;
+    background-color: rgba(240, 99, 184, 0.15);
+}
 
 
+.service-image img {
+    display: none;
+}
 
 
-
-
-
-
+.service-title {
+    margin-bottom: 30px;
+}
 
 
 
@@ -196,7 +203,7 @@ p {
     .landing {
         padding-top: 0;
         height: auto;
-        margin: 50px 0;
+        margin: 50px 0 100px;
     }
 
     .landing-banner {
@@ -264,10 +271,44 @@ p {
         position: absolute;
         top : 96px;
         left: 363px;
-        width: 885px;
+        width: 100%;
+        max-width: 885px;
         height: auto;
     }
 
+    /* Service Section */
+
+    .service{
+        margin-bottom: 150px;
+        background-color: #ffffff;
+    }
+    
+    .service .container{
+        border-radius: 50px;
+        background-color: rgba(240, 99, 184, 0.15);
+    }
+    
+    
+    .service-image img {
+        display: block;
+        width: 100%;
+        height: auto;
+        max-width: 477px;
+    }
+    
+    .service-content {
+        width: 100%;
+        padding : 0 77px 0 47px;
+        text-align: left;
+    }
+    
+    .service-title {
+        margin-bottom: 40px;
+    }
+
+
+
+    
 
 
 
