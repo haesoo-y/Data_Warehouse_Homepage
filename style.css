@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* Reset CSS */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button,
+input,
+textarea {
+    font-family: 'DM Sans', sans-serif;
+}
+
+button:focus,
+button:active,
+input:focus,
+input:active,
+textarea:focus,
+textarea:active {
+    outline: none;
+    box-shadow: none;
+}
+
+ul,
+ol,
+li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+    color: #212353
+}
+
+h2 {
+    font-size: 28px;
+    line-height: 1.3;
+    letter-spacing: -0.01em;
+    color: #212353
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 1.3;
+    letter-spacing: -0.01em;
+    color: #212353
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #2B292D
+    letter-spacing: -0.01em;
+}
+
+
+/* Landing Section */
+.landing-banner {
+    display: flex;
+    align-items: center;
+}
+
+.landing-banner-text {
+    font-size: 14px;
+    margin-right: 15px;
+}
+
+.landing-banner .landing-banner-text:last-child {
+    margin-right: 0;
+}
+
+.banner-image {
+    width: 25px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.landing-request {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Desktop Responsive */
+@media screen and (min-width:768px) {
+
+    /* Reset CSS */
+
+    h1 {
+        font-size: 40px;
+    }
+    
+    h2 {
+        font-size: 28px;
+    }
+    
+    h3 {
+        font-size: 20px;
+    }
+    
+    p {
+        font-size: 18px;
+    }
+
+
+    /* Landing Section */
+    .landing-request {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        width: 210px;
+        height: 60px;
+        background-color: rgba(255,255,255,1);
+        box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+        border-radius: 200px;
+    }
+
+    .landing-request-text {
+        margin-right: 20px;
+        font-weight: 700;
+        font-size: 16px;
+
+    }
+
+    .banner-image {
+        width: 50px;
+        margin-right: 120px;
+    }
+
+    .landing-banner-text {
+        font-size: 16px;
+        margin-right: 40px;
+    }
+
+    .request-arrow {
+        width: 20px;
+        height: auto;
+    }
+}
