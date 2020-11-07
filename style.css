@@ -66,7 +66,31 @@ p {
 }
 
 
+
+.button-text {
+    width: 100%;
+    font-size: 16px;
+    letter-spacing: -0.01em;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+.text-arrow-button::after {
+    display: inline-block;
+    content: "";
+    width: 20px;
+    height: 14px;
+    background-image: url(./assets/arrow.svg);
+    background-repeat: no-repeat;
+    background-size: 20px auto;
+}
+
+
+
 /* Landing Section */
+.landing {
+    margin: 10px 0;
+}
 .landing-banner {
     display: flex;
     align-items: center;
@@ -77,7 +101,11 @@ p {
     margin-right: 15px;
 }
 
-.landing-banner .landing-banner-text:last-child {
+.landing-banner a:first-of-type {
+    font-weight: 700;
+}
+
+.landing-banner a:last-of-type {
     margin-right: 0;
 }
 
@@ -125,29 +153,8 @@ p {
 
 
     /* Landing Section */
-    .landing-request {
-        
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: auto;
-        width: 210px;
-        height: 60px;
-        background-color: rgba(255,255,255,1);
-        box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
-        border-radius: 200px;
-    }
-
-    .landing-request-text {
-        margin-right: 20px;
-        font-weight: 700;
-        font-size: 16px;
-
-    }
-
-    .banner-image {
-        width: 50px;
-        margin-right: 120px;
+    .landing {
+        margin: 50px 0;
     }
 
     .landing-banner-text {
@@ -155,8 +162,25 @@ p {
         margin-right: 40px;
     }
 
-    .request-arrow {
-        width: 20px;
-        height: auto;
+    .landing-request {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+        padding-left: 29px;
+        width: 210px;
+        height: 60px;
+        background-color: rgba(255,255,255,1);
+        box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+        border-radius: 200px;
     }
+
+
+    .banner-image {
+        width: 50px;
+        margin-right: 120px;
+    }
+
+
+
+
 }
