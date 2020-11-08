@@ -169,6 +169,22 @@ p {
 
 
 
+/* Features Section */
+.features {
+    padding: 80px 0;
+}
+
+.features-title {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.features-desc {
+    text-align: center;
+}
+
+
+
 
 
 
@@ -276,6 +292,7 @@ p {
     /* Service Section */
 
     .service{
+        padding: 0;
         margin-bottom: 150px;
         background-color: #ffffff;
     }
@@ -304,12 +321,31 @@ p {
     }
 
 
+    /* Features Section */
+    .features {
+        padding: 0;
+        margin-bottom: 150px;
+    }
+    
+    .features-title {
+        margin-bottom: 50px;
+    }
+    
+    .features-desc {
+        width: 584px;
+        margin: 0 auto 100px;
+    }
+
+
 
     
 
 
 
 }
+
+
+
 
 /* Resposive Landing Image */
 
