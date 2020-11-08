@@ -78,8 +78,6 @@ p {
     background-size: 20px auto;
     background-position: right;
 
-
-    /* margin-right: 20px; */
 }
 
 
@@ -266,11 +264,13 @@ p {
     .landing-image{
         display: block;
         position: absolute;
-        top : 96px;
+        bottom: 0;
         left: 363px;
-        width: 100%;
-        max-width: 885px;
+    }
+
+    .landing-image img {
         height: auto;
+        width: 100%;
     }
 
     /* Service Section */
@@ -308,5 +308,15 @@ p {
     
 
 
+
+}
+
+/* Resposive Landing Image */
+
+@media screen and (min-width:1200px) {
+    .landing-image img {
+        height: auto;
+        width: 885px;
+    }
 
 }
