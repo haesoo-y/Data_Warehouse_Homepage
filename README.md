@@ -17,6 +17,8 @@
 5. Netlify에 깃허브와 연동시켜 디플로이 하였음.
 - [이동하기](https://harryproject01.netlify.app/)
 
+6. 구글 폰트를 사용하기 위해 디자인 시안과 별도로 Roboto font를 사용함.
+
 ### 참고
 - 사이트 주소 : https://harryproject01.netlify.app/
 
