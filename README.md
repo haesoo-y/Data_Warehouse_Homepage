@@ -1,7 +1,16 @@
 # Data Warehouse Web design
 
+### 목적
+ - 디자이너에게 받은 시안 파일(figma)을 바탕으로 웹페이지를  구현
+ 
+ - 시안에는 없는 모바일 반응형 페이지를 직접 설계하고 구현
+ 
+
 ### 미리보기
 ![datawarehouse](https://user-images.githubusercontent.com/71266602/98550864-f6e22800-22df-11eb-9bc0-e2939f402324.gif)
+
+- [바로가기](https://harryproject01.netlify.app/)
+
 ### 상세내용
 1. 부트스트랩의 그리드기능을 활용하여 반응형 웹 제작
 
